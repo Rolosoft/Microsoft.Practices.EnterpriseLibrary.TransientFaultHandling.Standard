@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rolosoft Ltd</Authors>
+    <Company>Rolosoft Ltd</Company>
+    <Copyright>Copyright © Rolosoft Ltd 2017</Copyright>
+    <RepositoryUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Standard</RepositoryUrl>
+    <PackageIconUrl>https://rolosoft.blob.core.windows.net/common/rolosoft128x128.png</PackageIconUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags></PackageTags>
+    <PackageReleaseNotes>Initial commit</PackageReleaseNotes>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <FileVersion>7.0.0.0</FileVersion>
+    <Description>Enterprise Library Transient Fault Handling Application Block</Description>
+    <Product>Enterprise Library Transient Fault Handling Application Block</Product>
+    <Version>7.0.0</Version>
+    <PackageId>Rolosoft.EnterpriseLibrary.TransientFaultHandling.Standard</PackageId>
+    <PackageProjectUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Standard</PackageProjectUrl>
+    <RootNamespace>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</RootNamespace>
+    <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml</DocumentationFile>
+  </PropertyGroup>
+ 
+
+</Project>
