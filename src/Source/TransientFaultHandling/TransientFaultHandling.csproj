@@ -16,7 +16,7 @@
     <Description>Enterprise Library Transient Fault Handling Application Block</Description>
     <Product>Enterprise Library Transient Fault Handling Application Block</Product>
     <Version>7.0.0</Version>
-    <PackageId>Rolosoft.EnterpriseLibrary.TransientFaultHandling.Standard</PackageId>
+    <PackageId>Rsft.EntLib.TransientFaultHandling.Standard</PackageId>
     <PackageProjectUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Standard</PackageProjectUrl>
     <RootNamespace>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</RootNamespace>
     <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
